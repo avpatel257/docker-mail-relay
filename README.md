@@ -1,6 +1,9 @@
 Postfix Mail Relay
 ======================
 
+[![](https://images.microbadger.com/badges/image/pioto/postfix-relay.svg)](https://microbadger.com/images/pioto/postfix-relay
+"Get your own image badge on microbadger.com")
+
 Contains:
 
 * Postfix, running in a simple relay mode

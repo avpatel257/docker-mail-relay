@@ -12,7 +12,8 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.schema-version="1.0"
 
 # Packages: update
-RUN apk -U add postfix ca-certificates libsasl py-pip supervisor rsyslog
+RUN apk -U add postfix ca-certificates libsasl py-pip supervisor rsyslog \
+  cyrus-sasl-plain cyrus-sasl-crammd5 cyrus-sasl-digestmd5 cyrus-sasl-login
 RUN pip install j2cli
 
 # Add files
